@@ -1,0 +1,64 @@
+body {
+	background-color: #fcc544;
+	background-image: url(../images/bg.jpg); /* file path */
+	background-size: 100% auto; /* make the back ground fix */
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	font-family: Helvetica, Arial, Sans-serif;
+	color: black;
+	margin: 0;
+
+}
+
+.main {
+	width: 600px;
+	margin: 10px auto; /* top and button 0 - left and right auto and move by the size of the browser */
+	background-color: rgba(255,255,255,0.3);
+	padding: 20px; /* space from the text and frame */
+	border-radius: 20px;
+	box-shadow: 0px 0px 50px 10px rgba(255,255,255,0.9);
+}
+
+h1 {
+	font-family: 'Exo', sans-serif;
+	border-bottom: 2px solid black;
+	padding-bottom: 5px;
+	font-size: 50px; 	/*when i changed the phont from google then the upper casre code didn't let the new font works*/
+	/*text-transform: uppercase;*/
+	text-align: center;
+	margin: 0;
+	color: white;
+	letter-spacing: 20px;
+
+}
+h2 {
+	margin: 0;
+	padding-top: 10px;
+	text-align: center;
+}
+/* this is a comment */
+img {
+	width: 250px;
+	display: block; /* this centers the images */
+	margin: 10px auto;
+	border: 5px solid white;
+	border-radius: 20px;
+}
+p,
+ul,
+ol {
+	line-height: 1.6;
+	list-style: none;
+	padding-left: 10px;
+}
+
+a {
+	color: red;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:focus,
+a:hover {
+	text-decoration: underline;
+	color: black;
+}
